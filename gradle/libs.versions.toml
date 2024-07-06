@@ -8,14 +8,19 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.3"
 activityCompose = "1.9.0"
 composeBom = "2023.08.00"
+navigationComposeVersion = "2.7.7"
 selfieSegmentation = "16.0.0-beta5"
 accompanistVersion = "0.34.0"
 cameraXVersion = "1.3.4"
 hiltVersion = "2.51.1"
+splashScreenApi = "1.2.0-alpha01"
+
 
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -29,8 +34,10 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-core-splashScreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreenApi"}
 segmentation-selfie = { group = "com.google.mlkit", name = "segmentation-selfie", version.ref = "selfieSegmentation"}
 accompanist = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanistVersion"}
+
 camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraXVersion"}
 camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "cameraXVersion"}
 camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraXVersion"}

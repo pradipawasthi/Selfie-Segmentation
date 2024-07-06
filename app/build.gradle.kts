@@ -61,6 +61,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.core.splashScreen)
 
     kapt(libs.hilt.android.compiler)
     implementation(libs.hilt.android)
@@ -72,7 +73,8 @@ dependencies {
     implementation(libs.camera.camera2)
     implementation(libs.camera.view)
     implementation(libs.camera.extensions)
-
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
 
     testImplementation(libs.junit)
