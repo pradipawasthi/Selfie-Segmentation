@@ -42,8 +42,8 @@ fun RootScreen() {
 
 @Composable
 fun AppNavHost(navController: NavHostController) {
-    NavHost(navController, startDestination = PERMISSION_VIEW_ROUTE) {
-        composable(PERMISSION_VIEW_ROUTE) { PermissionView(navController) }
+    NavHost(navController, startDestination = CAMERA_VIEW_ROUTE) {
+//        composable(PERMISSION_VIEW_ROUTE) { PermissionView(navController) }
         composable(CAMERA_VIEW_ROUTE) { CameraView(navController) }
         composable(PREVIEW_VIEW_ROUTE) { PreviewView(navController) }
     }

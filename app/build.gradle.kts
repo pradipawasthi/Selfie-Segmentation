@@ -65,6 +65,7 @@ dependencies {
 
     kapt(libs.hilt.android.compiler)
     implementation(libs.hilt.android)
+    implementation(libs.hilt.navigation.compose)
     implementation(libs.segmentation.selfie)
     implementation(libs.accompanist)
 
@@ -76,6 +77,11 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
+    implementation(libs.compressor)
+
+    implementation("org.tensorflow:tensorflow-lite:2.7.0")
+    implementation("org.tensorflow:tensorflow-lite-gpu:2.7.0")
+    implementation("org.tensorflow:tensorflow-lite-support:0.1.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

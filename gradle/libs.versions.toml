@@ -1,5 +1,6 @@
 [versions]
 agp = "8.4.2"
+compressorVersion = "3.0.1"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -14,6 +15,7 @@ accompanistVersion = "0.34.0"
 cameraXVersion = "1.3.4"
 hiltVersion = "2.51.1"
 splashScreenApi = "1.2.0-alpha01"
+hiltNavigation = "1.0.0"
 
 
 
@@ -21,6 +23,7 @@ splashScreenApi = "1.2.0-alpha01"
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
+compressor = { module = "id.zelory:compressor", version.ref = "compressorVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -46,7 +49,7 @@ camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "
 camera-extensions = { group = "androidx.camera", name = "camera-extensions", version.ref = "cameraXVersion"}
 hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltVersion"}
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion"}
-
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigation"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

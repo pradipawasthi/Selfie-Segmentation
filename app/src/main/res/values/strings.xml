@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Selfie Segmentation</string>
+
+    <string name="allow_app_to_access_camera">Allow Selfie Segmentation to access  your camera and microphone</string>
+    <string name="take_photos_record_videos_or_preview">Take photos, record videos or preview effect on camera.</string>
+    <string name="you_can_change_preference_in_setting">You can change preferences at any time in your device settings.</string>
+    <string name="access_camera">Access camera</string>
+    <string name="upload_from_gallery">Upload from gallery</string>
+    <string name="camera_permission_rationale">Camera permission rationale</string>
+    <string name="place_your_face_inside_the_circle">Place your face inside the circle</string>
 </resources>
